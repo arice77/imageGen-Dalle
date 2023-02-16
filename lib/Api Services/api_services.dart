@@ -3,7 +3,7 @@ import 'dart:convert';
 
 class ApiServices {
   Future<List<dynamic>> imageCall(String request) async {
-    const apiKey = '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';
+    const apiKey = 'YOUR-API-KEY';
     final response = await http.post(
       Uri.parse('https://api.openai.com/v1/images/generations'),
       headers: {
